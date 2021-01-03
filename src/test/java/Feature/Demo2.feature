@@ -3,7 +3,7 @@ Feature: user Details
     * def user =
     """
     {
-      "name": "can",
+      "name": "berk",
       "job": "engineer"
     }
     """
