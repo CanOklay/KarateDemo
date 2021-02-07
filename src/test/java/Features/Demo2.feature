@@ -1,4 +1,5 @@
 Feature: user Details
+  @PostScenario @TypicodePost @Post
   Scenario: create a user
     * def user =
     """
