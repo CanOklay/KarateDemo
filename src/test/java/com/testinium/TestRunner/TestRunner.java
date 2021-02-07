@@ -5,7 +5,6 @@ import com.intuit.karate.junit4.Karate;
 import org.junit.runner.RunWith;
 
 @RunWith(Karate.class)
-@KarateOptions(features = {"src/test/java/Features"},
-                tags = {"@Post,@Get"})
+@KarateOptions(features = {"src/test/java/Features"})
 public class TestRunner {
 }
