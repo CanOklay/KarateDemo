@@ -6,7 +6,6 @@ import org.junit.runner.RunWith;
 
 @RunWith(Karate.class)
 @KarateOptions(features = {"src/test/java/Features"},
-                tags = {"@GetScenario,@PostScenario"})
+                tags = {"@Post,@Get"})
 public class TestRunner {
-
 }
